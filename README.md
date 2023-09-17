@@ -8,7 +8,7 @@ Only run the code once thought. Otherwise you'll run into an error. <br>
 
 Code Snippet:
 ```php
-$sql = "CREATE DATABASE db_name";
+$sql = "CREATE DATABASE $db_name";
 
 if ($conn->query($sql) === TRUE) {
     echo "DB online!";
